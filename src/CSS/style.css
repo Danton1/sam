@@ -125,11 +125,8 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #18191a url(/src/imgs/loading.gif) no-repeat center center;
+  background: #18191a url(https://danton1.github.io/sam/src/imgs/loading.gif) no-repeat center center;
   background-size: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 25000;
 }
 
