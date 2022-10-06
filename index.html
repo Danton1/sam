@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Workout App</title>
+
+    <!-- Font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="shortcut icon" href="./src/imgs/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Preloader Section Starts Here -->
+    <div class="preloader" id="preloader">
+        <!-- <img src="/ideas/makima.gif" alt="" class="preloader-img"> -->
+        <h1>LOADING...</h1>
+    </div>
+    
+    <!-- Preloader Section Ends Here -->
+    
+    <!-- Header Section Starts Here -->
+    
+    <header class="header">
+        <a href="#" class="logo">💪🏻 <span>Sam's</span> Workout App <strong>💪🏻</strong></a>
+
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+
+        <nav class="navbar">
+                <!-- <i class="fa-solid fa-dumbbell"></i>\ -->
+                <a href="#home"><i class="fa-solid fa-house"></i>  Home</a>
+                <a href="#workouts"><i class="fa-solid fa-dumbbell"></i>  Workouts</a>
+                <a href="#more-info"><i class="fa-solid fa-circle-info"></i>  More Info</a>
+                <a href="https://bootyking.co/my-profile/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-crown"></i>  Booty King</a>
+        </nav>
+    </header>
+    <!-- Header Section Ends Here -->
+    <main>
+    <!-- Home Section Starts Here -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(./src/imgs/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>STOP WISHING, </span> <span>START DOING!</span>
+                        <h3>Success starts with discipline!</h3>
+                        <a href="#workouts" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./src/imgs/home-bg-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>STOP WISHING, </span> <span>START DOING!</span>
+                        <h3>Make yourself stronger than your excuses!</h3>
+                        <a href="#workouts" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./src/imgs/home-bg-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>STOP WISHING, </span> <span>START DOING!</span>
+                        <h3>Train your body,<br/>train your mind!</h3>
+                        <a href="#workouts" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./src/imgs/home-bg-4.jpg) no-repeat;">
+                    <div class="content">
+                        <span>STOP WISHING, </span> <span>START DOING!</span>
+                        <h3>Train today,<br/>celebrate tomorrow!</h3>
+                        <a href="#workouts" class="btn">get started</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+        
+    </section>
+    <!-- Home Section Ends Here -->
+    <!-- Workout Section Starts Here -->
+    <section class="features" id="workouts">
+        <h1 class="heading"><span><i class="fa-solid fa-dumbbell"></i> Your Workouts </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <a href="./legs.html"><img src="./src/imgs/w-img-1.jpg" alt=""></a>
+                </div>
+                <a href="./legs.html">
+                    <div class="content">
+                        <img src="./src/imgs/icon-1.png" alt="">
+                        <h3>Leg Day</h3>
+                        <p>Leg muscles, cardio and some core.</p>
+                        <a href="./legs.html" class="btn">Open workout</a>
+                    </div>
+                </a>
+            </div>
+            <div class="box second">
+                <div class="image">
+                    <a href="./upper-body.html"><img src="./src/imgs/w-img-2.jpg" alt=""></a>
+                </div>
+                <div class="content">
+                    <a href="./upper-body.html">
+                        <img src="./src/imgs/icon-2.png" alt="">
+                        <h3>Upper Body</h3>
+                        <p>This workout will grant you better push-ups and pull-ups!</p>
+                        <a href="./upper-body.html" class="btn">Open workout</a>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <a href="./cardiocore.html"><img src="./src/imgs/w-img-3.jpg" alt=""></a>
+                </div>
+                <div class="content">
+                    <a href="./cardiocore.html">
+                        <img src="./src/imgs/icon-3.png" alt="">
+                        <h3>Cardio + Core</h3>
+                        <p>Key workout to get lean!</p>
+                        <a href="./cardiocore.html" class="btn">Open workout</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Workout Section Ends Here -->
+    <!-- Trainers Section Starts Here -->
+    <section class="trainers" id="trainers">
+        <h1 class="heading"><span> Our Athletes </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./src/imgs/athlete-1.jpg" alt="">
+                <div class="content">
+                    <span>Expert Trainer</span>
+                    <h3>Danton Soares</h3>
+                    <div class="share">
+                        <a href="https://github.com/Danton1" target="_blank" rel="noopener noreferrer" class="fab fa-github"></a>
+                        <a href="https://www.linkedin.com/in/danton-soares/" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
+                        <a href="https://codepen.io/Danton1" target="_blank" rel="noopener noreferrer" class="fab fa-codepen"></a>
+                        <a href="https://twitter.com/MrDanton1" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="./src/imgs/athlete-2.jpg" alt="">
+                <div class="content">
+                    <span>Cheerleader</span>
+                    <h3>Cute Sam Soares</h3>
+                    <div class="share">
+                        <a href="https://www.instagram.com/samsenpai/" target="_blank" rel="noopener noreferrer" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/samanthayczhou/" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
+                        <a href="https://www.vitaeapparel.com/discount/samz15" target="_blank" rel="noopener noreferrer" class="fa-solid fa-tags"></a>
+                        <a href="https://www.youtube.com/channel/UC7vT4qiWuyfk2jE5wi6xdqw" target="_blank" rel="noopener noreferrer" class="fab fa-youtube"></a>
+                        <a href="https://discord.gg/r7fj8tt" target="_blank" rel="noopener noreferrer" class="fab fa-discord"></a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="./src/imgs/athlete-3.jpg" alt="">
+                <div class="content">
+                    <span>Kung-fu Master</span>
+                    <h3>Geneva Poon</h3>
+                    <div class="share">
+                        <a href="https://www.instagram.com/geno.shu/" target="_blank" rel="noopener noreferrer" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/genevapoon/" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
+                        <a href="http://artstrikegame.com/" target="_blank" rel="noopener noreferrer" class="fa-solid fa-gamepad"></a>
+                        <a href="https://www.twitch.tv/genoshu" target="_blank" rel="noopener noreferrer" class="fab fa-twitch"></a>
+                        <a href="https://twitter.com/genoshuart" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./src/imgs/athlete-4.jpg" alt="">
+                <div class="content">
+                    <span>Professional Asshole</span>
+                    <h3>Evil Sam Zhou</h3>
+                    <div class="share">
+                        <a href="https://www.instagram.com/sam.getsfit_/" target="_blank" rel="noopener noreferrer" class="fab fa-instagram"></a>
+                        <a href="https://steamcommunity.com/id/The-Butt-Hunter/" target="_blank" rel="noopener noreferrer" class="fab fa-steam"></a>
+                        <a href="https://www.twitch.tv/samv1" target="_blank" rel="noopener noreferrer" class="fab fa-twitch"></a>
+                        <a href="https://twitter.com/v1_senpai" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
+                        <a href="https://www.vitaeapparel.com/discount/samz15" target="_blank" rel="noopener noreferrer" class="fa-solid fa-tags"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainers Section Ends Here -->
+    
+    <!-- Banner Section Starts Here -->
+    
+    <section class="banner" id="more-info">
+        
+        <h3><a href="#" class="logo">💪🏻 <span>Sam's</span> Workout App <strong>💪🏻</strong></a></h3>
+        <img src="./src/imgs/5859214_health_healthy_heart_strength_strong_icon.png" alt="" srcset="" style="width: 130px; text-align: center; margin: auto; padding: 0; display: block;">
+        <h3>About the project</h3>
+        <p>Sam's Workout App is a little passion project I developed for my girlfriend. She is always having trouble keeping up with her exercise routine, so I wanted to create a space where she could keep all of the information, and also make it easier for her to follow her routine and track her progress.</p>
+        <a href="#workouts" class="btn">check the workouts!</a>
+    </section>
+    <!-- Banner Section Ends Here -->
+    <!-- Footer Section Starts Here -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><a href="#" class="logo">💪🏻 <span>Sam's</span> Workout App <strong>💪🏻</strong></a></h3>
+                <a href="./legs.html" class="links"><i class="fa-solid fa-angle-right"></i> Leg Day</a>
+                <a href="./upper-body.html" class="links"><i class="fa-solid fa-angle-right"></i> Upper body</a>
+                <a href="./alt-upperbody.html" class="links"><i class="fa-solid fa-angle-right"></i> Alternative Upper Body</a>
+                <a href="./alt-legs.html" class="links"><i class="fa-solid fa-angle-right"></i> Alternative Leg Day</a>
+                <a href="./cardiocore.html" class="links"><i class="fa-solid fa-angle-right"></i> Cardio+Core</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a class="links" href="#home"><i class="fa-solid fa-house"></i>  Home</a>
+                <a class="links" href="#workouts"><i class="fa-solid fa-dumbbell"></i>  Workouts</a>
+                <a class="links" href="#trainers"><i class="fa-solid fa-person-running"></i>  Athletes</a>
+                <a class="links" href="#more-info"><i class="fa-solid fa-circle-info"></i>  More Info</a>
+                <a class="links" href="https://bootyking.co/my-profile/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-crown"></i>  Booty King</a>
+            </div>
+            <div class="box">
+                <h3>Other resources</h3>
+                <a class="links" href="https://www.youtube.com/GravityTrainingSol" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i>  Gravity Transformation</a>
+                <a class="links" href="https://www.youtube.com/KrissyCelaa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i>  Krissy Cela</a>
+                <a class="links" href="https://musclewiki.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-dumbbell" ></i>  Muscle Wiki</a>
+                <a class="links" href="https://fitnessprogramer.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-dumbbell" ></i>  Fitness Programer</a>
+            </div>
+            <div class="box">
+                <h3>Dev's contact info</h3>
+                
+                <p> <i class="fab fa-github"></i> Danton1 </p>
+                <p style="text-transform: none;"> <i class="fas fa-envelope"></i> dantonvsoares@gmail.com </p>
+                <div class="share">
+                    <a href="https://github.com/Danton1" target="_blank" rel="noopener noreferrer" class="fab fa-github"></a>
+                    <a href="https://www.linkedin.com/in/danton-soares/" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
+                    <a href="https://codepen.io/Danton1" target="_blank" rel="noopener noreferrer" class="fab fa-codepen"></a>
+                    <a href="https://twitter.com/MrDanton1" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="credit">&copy; Created by <a href="https://github.com/Danton1" target="_blank" rel="noopener noreferrer"><span>Dan Soares</span></a> | All rights reserved!</div>
+    <!-- Footer Section Ends Here -->
+
+
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom JavaScript file link -->
+    <script src="./src/JS/app.js"></script>
+</body>
+</html>

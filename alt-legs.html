@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt Leg Day | Sam's Workout App</title>
+
+    <!-- Font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/workouts.css">
+    <link rel="shortcut icon" href="./src/imgs/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(./src/imgs/alt-legs.jpg) no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Header Section Starts Here -->
+    
+    <header class="header">
+        <a href="./index.html" class="logo">💪🏻 <span>Sam's</span> Workout App <strong>💪🏻</strong></a>
+
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+
+        <nav class="navbar">
+                <!-- <i class="fa-solid fa-dumbbell"></i>\ -->
+                <a href="./index.html"><i class="fa-solid fa-house"></i>  Home</a>
+                <a href="./index.html#workouts"><i class="fa-solid fa-dumbbell"></i>  Workouts</a>
+                <a href="https://bootyking.co/my-profile/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-crown"></i>  Booty King</a>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Section Ends Here -->
+    <main>
+
+        <a href="./legs.html" class="btn"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+        
+        <div class="table-container">
+            <h1 class="heading"><span>🦵🏻Alternative Leg Day</span></h1>
+            <a href="./legs.html" class="btn"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+
+            <div class="fade hide" id="fade"></div>
+            <div class="modal hide" id="modal">
+                <div class="modal-header">
+                    <h2 id="modal-title">Title</h2>
+                    <button id="close-modal">&times;</button>
+                </div>
+                <div class="modal-img" ><img id="modal-img" src="" alt="" srcset=""></div>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>✅</th>
+                        <th>Exercise</th>
+                        <th>Sets</th>
+                        <th>Reps</th>
+                        <th class="t-type">Type</th>
+                        <th>Weight</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Inclined Treadmill</td>
+                        <td data-label="Sets">1</td>
+                        <td data-label="Reps">15min</td>
+                        <td data-label="Type" class="t-type">Cardio</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>5</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Squats</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">25</td>
+                        <td data-label="Type" class="t-type">Bodyweight</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Lateral Squats</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">25</td>
+                        <td data-label="Type" class="t-type">Bodyweight</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">RDLs</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Dumbbell</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>30</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Walking Lunges</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Dumbbell</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Split Squats</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Dumbbell</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>20</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Sumo Squats</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Dumbbell</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Hip Thrust</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Barbell</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>80</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Side Plank</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">30 secs</td>
+                        <td data-label="Type" class="t-type">Mat</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Leg Raises</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Mat</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Crunches</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">15</td>
+                        <td data-label="Type" class="t-type">Mat</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>15</div></td>
+                    </tr>
+                    <tr>
+                        <td data-label="✅"><input type="checkbox" class="checkbox" name="Done" id=""></td>
+                        <td data-label="Exercise" class="exercise">Calf Raises</td>
+                        <td data-label="Sets">3</td>
+                        <td data-label="Reps">12</td>
+                        <td data-label="Type" class="t-type">Step</td>
+                        <td data-label="Weight" class="weights"><div contenteditable>--</div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h1 class="theading to-complete" id="completed">✅ YOU COMPLETED YOUR WORKOUT!! ✅</h1>
+        <img src="./src/imgs/stitch-cheer.gif"  class="to-complete-img" id="completed-img" alt="Cheerleader celebrating">
+    </main>
+    <!-- Footer Section Starts Here -->
+    <footer>
+        <div class="credit">&copy; Created by <a href="https://github.com/Danton1"  target="_blank" rel="noopener noreferrer"><span>Dan Soares</span></a> | All rights reserved!</div>
+    </footer>
+    <!-- Footer Section Ends Here -->
+<!-- Custom JavaScript file link -->
+<script src="./src/JS/alt-legs.js"></script>
+<script src="./src/JS/workouts.js"></script>
+</body>
+</html>
