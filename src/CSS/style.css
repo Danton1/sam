@@ -131,8 +131,8 @@ section {
 }
 
 .disappear {
-  -webkit-animation: vanish 0.5s forwards;
-          animation: vanish 0.5s forwards;
+  -webkit-animation: vanish 5s forwards;
+          animation: vanish 5s forwards;
 }
 
 @-webkit-keyframes vanish {
